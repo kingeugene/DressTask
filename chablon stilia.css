@@ -21,7 +21,7 @@ p {
   /*-----высота футера-----*/ }
 
 .container {
-  width: 70%;
+  width: 75%;
   /*---ширина сайта*/
   margin: auto; }
 
@@ -69,24 +69,29 @@ ul li {
   display: inline-block;
   font-weight: bold;
   margin-left: 1em;
-  font-size: 80%; }
+  font-size: 80%;
+  margin-top: 0.5em; }
 
 .korzina {
   position: relative;
   width: 80%; }
 
+.korzinabig {
+  position: relative; }
+
 .diacount_korzina {
   position: absolute;
-  width: 1.7%;
-  left: 91%;
-  bottom: 40%; }
+  bottom: -30%;
+  left: -50%;
+  width: 80%; }
 
 .icons {
   display: inline-block;
-  margin-right: 1em; }
+  margin-left: 1.5em; }
 
 .icons_end {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 1.5em; }
 
 .custom_icons_menu {
   width: 80%; }
