@@ -1,0 +1,137 @@
+﻿/*----------------------------ЧАСТЫЕ ПРИЕМЫ ВЕРСТКИ--------------------------------*/
+
+
+
+
+/*----------------Организация двух колонок-----------------------*/
+/*----
+<div colums>	
+	<div colums_left>
+		<div block></div>
+	</div>
+	<div colums_right>
+		текст
+	</div>
+----------*/
+ .colums:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+.colums_left {
+	float:left;
+	width: /*--%--*/
+}
+.colums_right {
+	position: relative;
+	float: left;
+	width: /*--%--*/
+}
+
+
+
+
+
+/*-----Центрирование по вертикали*/
+
+/*-----должна задаваться размерность блокa
+
+<li absolute>
+		<div list_block>
+</li>
+---------*
+
+.absolute {
+	position: relative;
+}
+.absolute list_block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+}
+
+
+
+
+
+
+/*--------второй способ (не должен меняться размер блока, если они есть)
+
+<li wooden>
+		<list_block>
+</li>
+
+--------------*/
+.wooden {
+	position: relative;
+}
+.wooden list_block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -половина размера ширины блока;
+	margin-left: -половина размера длины блока;
+	/*----------вместо маржинов можно использовать transform-----------------*/
+	transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+/*-------------Выравнивание текта в блоке кнопки по центру--
+<a href="" bth>
+		текст выравнивнивания
+</a>
+---------------------*/
+/*---однострочный контент-----*/
+
+.bth {
+ 	height: 50px;
+ 	text-align: :center;
+ 	line-height: 50px;
+ 	white-space: nowrap; /*--content na odnou stroshke--*/
+ 	overflow: hidden; /*---vulezaushey obrezaetsy---*/
+ 	text-overflow: ellipsis; /*---dobavlyetsy 3 toshki---*/
+
+ }
+
+
+
+
+
+
+/*-------чтобы элементы выстраились на дной строчке по всей ширине -------
+
+<ul nav>
+		<li nav_ite> a href= nav_link> Text </a></li>
+		-||-
+		-||-
+		-||-
+		-||-
+</ul>
+-------*/
+.nav {
+	width: 100%;
+	text-align: justify;
+	font-size: 0;
+	*{
+		font-size: 14px;
+	}
+}
+.nav:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+	height: 0px;
+}
+.nav_item {
+	display: inline-block;
+}
+
+

@@ -1,0 +1,273 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 100%;
+  /*---ширина сайта*/ }
+
+p {
+  margin: 0; }
+
+/*----для прибиваня футера*/
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 245px;
+  /*-----высота футера-----*/ }
+
+.container {
+  width: 89%;
+  /*---ширина сайта*/
+  margin: auto; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+ul li {
+  list-style: none; }
+
+/*----------Start Header-----------*/
+.header {
+  position: -webkit-sticky;
+  position: sticky; }
+
+.header_cover {
+  padding: 25px 0px;
+  vertical-align: middle; }
+
+.heder_logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 55px; }
+
+.product {
+  display: inline-block;
+  font-weight: bold; }
+
+.header_product {
+  display: inline-block;
+  margin-right: 30px; }
+
+.many_language {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 110px; }
+
+.many {
+  display: inline-block;
+  margin-right: 23px; }
+
+.custom_icons {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 25px; }
+
+.icons {
+  display: inline-block;
+  margin-right: 20px; }
+
+.icons_end {
+  display: inline-block; }
+
+.background_image {
+  overflow: hidden;
+  position: relative;
+  display: grid; }
+  .background_image img {
+    margin-top: -70px;
+    width: 100%;
+    z-index: -1; }
+
+.background_text {
+  position: absolute;
+  z-index: 3;
+  top: 20%;
+  left: 55%; }
+
+.text_discount {
+  font-size: 2em;
+  color: #020101;
+  margin: 0;
+  font-weight: bold; }
+
+.text_sale {
+  font-size: 4em;
+  color: #ebb03d;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 0.3em; }
+
+.button_purchase {
+  padding: 24px 38px;
+  background: #ebad38;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 0.8em;
+  border: none;
+  margin-top: 2.5em; }
+
+.imgs_background {
+  position: relative;
+  height: 595px;
+  display: inline-block; }
+  .imgs_background img {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    left: -20em; }
+
+.main_text {
+  float: right;
+  margin-top: 6.5em;
+  position: absolute;
+  top: 45em;
+  left: 35.5em;
+  width: 51%; }
+  .main_text .big_text {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    z-index: 5; }
+
+.main_small_text {
+  margin: 60px 0 0 256px; }
+  .main_small_text p {
+    margin: 0; }
+  .main_small_text .small_text_paragraf {
+    margin-top: 1em; }
+
+.slaider {
+  margin-top: 260px; }
+
+.dress {
+  display: inline-block;
+  text-align: center;
+  width: 33%; }
+
+.dress_plat {
+  position: relative; }
+  .dress_plat .plat_discount {
+    position: absolute;
+    left: 50px;
+    bottom: 350px; }
+
+.description {
+  font-size: 23px;
+  font-weight: bold;
+  padding-top: 45px; }
+
+.price {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 15px; }
+
+.price_small {
+  font-size: 16px;
+  font-weight: normal; }
+
+.old_price {
+  font-size: 30px;
+  position: relative; }
+  .old_price img {
+    position: absolute;
+    top: 8px; }
+
+.old_price_small {
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: 25px; }
+
+.dress_button {
+  padding: 16px 48px;
+  background: #ebad38;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  border: none; }
+  .dress_button img {
+    vertical-align: middle;
+    margin-left: 10px; }
+
+/*---------Начало футера----------*/
+.footer {
+  height: 245px;
+  background: #1e1e1e;
+  margin-top: -245px;
+  position: relative; }
+
+.footer_object {
+  padding-top: 30px; }
+
+.footer_logo {
+  display: inline-block; }
+
+.footer_info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 180px; }
+
+.text_info {
+  display: inline-block;
+  padding-right: 28px; }
+
+.info_text {
+  vertical-align: top;
+  color: #a9a9a9; }
+
+.info_text_bottom {
+  margin-top: 32px; }
+
+.phone_number {
+  display: inline-block;
+  vertical-align: middle; }
+
+.number {
+  color: #fff; }
+
+.bottom_button {
+  display: inline-block;
+  padding: 16px 38px;
+  background: #ebad38;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 53px;
+  border: none;
+  margin-right: 56px; }
+
+.footer_icons {
+  display: inline-block;
+  vertical-align: middle; }
+  .footer_icons .icons {
+    margin-right: 22px; }
+
+.footer_bottom {
+  margin-top: 36px;
+  border-top: 1px solid #353535; }
+
+.foot_bot_text_one {
+  display: inline-block;
+  padding: 30px 0px;
+  color: #a9a9a9; }
+
+.foot_bot_text_two {
+  display: inline-block;
+  color: #8f8f8f; }
+
+.site_creation {
+  display: inline-block;
+  margin-left: 60%; }
+
+.webakula {
+  margin-left: 10px;
+  vertical-align: middle; }
+
+/*----------Конец футера----------*/
