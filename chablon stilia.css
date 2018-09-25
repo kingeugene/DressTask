@@ -21,7 +21,7 @@ p {
   /*-----высота футера-----*/ }
 
 .container {
-  width: 89%;
+  width: 70%;
   /*---ширина сайта*/
   margin: auto; }
 
@@ -44,20 +44,22 @@ ul li {
 .heder_logo {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 55px; }
+  margin-right: 3.4%; }
 
 .product {
   display: inline-block;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 80%; }
 
 .header_product {
   display: inline-block;
-  margin-right: 30px; }
+  margin-right: 1.8em; }
 
 .many_language {
   display: inline-block;
   font-weight: bold;
-  margin-left: 110px; }
+  margin-left: 4%;
+  font-size: 80%; }
 
 .many {
   display: inline-block;
@@ -66,14 +68,28 @@ ul li {
 .custom_icons {
   display: inline-block;
   font-weight: bold;
-  margin-left: 25px; }
+  margin-left: 1em;
+  font-size: 80%; }
+
+.korzina {
+  position: relative;
+  width: 80%; }
+
+.diacount_korzina {
+  position: absolute;
+  width: 1.7%;
+  left: 91%;
+  bottom: 40%; }
 
 .icons {
   display: inline-block;
-  margin-right: 20px; }
+  margin-right: 1em; }
 
 .icons_end {
   display: inline-block; }
+
+.custom_icons_menu {
+  width: 80%; }
 
 .background_image {
   overflow: hidden;
@@ -114,30 +130,28 @@ ul li {
   margin-top: 2.5em; }
 
 .imgs_background {
-  position: relative;
-  height: 595px;
-  display: inline-block; }
-  .imgs_background img {
-    position: absolute;
-    top: 0;
-    z-index: -2;
-    left: -20em; }
+  width: 50%;
+  position: absolute;
+  z-index: -5; }
 
 .main_text {
-  float: right;
-  margin-top: 6.5em;
-  position: absolute;
-  top: 45em;
-  left: 35.5em;
-  width: 51%; }
+  height: 28em;
+  margin-top: 4em; }
   .main_text .big_text {
     margin: 0;
     font-weight: bold;
-    font-size: 50px;
-    z-index: 5; }
+    font-size: 2.66em;
+    z-index: 5;
+    display: inline-block;
+    width: 61%;
+    float: right; }
 
 .main_small_text {
-  margin: 60px 0 0 256px; }
+  margin-top: 3em;
+  width: 40%;
+  float: right;
+  display: inline-block;
+  margin-right: 5%; }
   .main_small_text p {
     margin: 0; }
   .main_small_text .small_text_paragraf {
@@ -155,7 +169,7 @@ ul li {
   position: relative; }
   .dress_plat .plat_discount {
     position: absolute;
-    left: 50px;
+    left: 0;
     bottom: 350px; }
 
 .description {
@@ -195,6 +209,21 @@ ul li {
   .dress_button img {
     vertical-align: middle;
     margin-left: 10px; }
+  .dress_button:hover {
+    color: black; }
+
+.grid {
+  position: absolute;
+  top: 25.8%;
+  left: 0%;
+  z-index: -88; }
+  .grid .grid_foto {
+    width: 70%; }
+
+.go_directory {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 10em; }
 
 /*---------Начало футера----------*/
 .footer {
@@ -212,7 +241,7 @@ ul li {
 .footer_info {
   display: inline-block;
   vertical-align: top;
-  margin-left: 180px; }
+  margin-left: 8%; }
 
 .text_info {
   display: inline-block;
@@ -220,7 +249,8 @@ ul li {
 
 .info_text {
   vertical-align: top;
-  color: #a9a9a9; }
+  color: #a9a9a9;
+  font-size: 80%; }
 
 .info_text_bottom {
   margin-top: 32px; }
@@ -256,6 +286,7 @@ ul li {
 .foot_bot_text_one {
   display: inline-block;
   padding: 30px 0px;
+  font-size: 80%;
   color: #a9a9a9; }
 
 .foot_bot_text_two {
@@ -264,7 +295,10 @@ ul li {
 
 .site_creation {
   display: inline-block;
-  margin-left: 60%; }
+  margin-left: 58%;
+  font-size: 80%; }
+  .site_creation img {
+    width: 40%; }
 
 .webakula {
   margin-left: 10px;
