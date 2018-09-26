@@ -191,11 +191,9 @@ a {
 
 /* 48em = 768px */
 
-@media (min-width: 958px) {
     .section-split a {
         width: 50%;
     }
-}
 
 .many_icons {
     display: inline-block;

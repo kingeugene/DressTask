@@ -13,6 +13,9 @@ html, body {
 p {
   margin: 0; }
 
+a {
+  text-decoration: none; }
+
 /*----для прибиваня футера*/
 .wrapper:after {
   content: "";
@@ -54,6 +57,10 @@ ul li {
 .header_product {
   display: inline-block;
   margin-right: 1.8em; }
+
+.many_icons {
+  display: inline-block;
+  float: right; }
 
 .many_language {
   display: inline-block;
@@ -236,7 +243,9 @@ ul li {
 .grid {
   position: absolute;
   top: 70em;
-  left: 0; }
+  left: -10em;
+  z-index: -20;
+  margin-top: -40em; }
 
 .grid_top_foto {
   position: absolute;
@@ -259,9 +268,33 @@ ul li {
   margin-top: 5em;
   margin-bottom: 6em; }
 
-.many_icons {
-  display: inline-block;
-  float: right; }
+/** slider */
+
+.carousel-control        { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -100%; }
+  .carousel-inner .next        { left:  100%; }
+  .carousel-inner .prev    { left: -100%; }
+  .active > div { display:none; }
+  .active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .next        { left:  50%; }
+  .carousel-inner .prev    { left: -50%; }
+  .active > div { display:none; }
+  .active > div:first-child { display:block; }
+  .active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .next        { left:  25%; }
+  .carousel-inner .prev    { left: -25%; }  
+}
+
+
 
 /*---------Начало футера----------*/
 .footer {
@@ -288,6 +321,8 @@ ul li {
 .text_info {
   display: inline-block;
   padding-right: 1.75em; }
+  .text_info a {
+    color: #808080; }
 
 .info_text {
   vertical-align: top;
@@ -314,6 +349,11 @@ ul li {
   margin-left: 3.3em;
   border: none;
   margin-right: 1em; }
+  .bottom_button a {
+    color: black; }
+    .bottom_button a :hover {
+      background: black;
+      display: block; }
 
 .footer_icons {
   display: inline-block;

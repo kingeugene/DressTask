@@ -7,6 +7,10 @@
 	<link rel="stylesheet"  href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="chablon stilia.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 	<title>Текстовое поле </title>
 </head>
 <body>
@@ -65,13 +69,16 @@
                                 </div>
                                     
             </div>
-            <div class="slaider">
-           <div class="dress">
+
+
+        <div class="slaider carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
+        	<div class="carousel-inner">
+           <div class="dress item">
            	<div class="dress_plat">
            	
            	<img class="plat_discount" src="photo/discountdress.png" alt="">
            	<div class="dress_foto">
-           	<img class="dress_one" src="photo/dress one.png" alt="">
+           	<img class="dress_one" src="photo/dressone.png" alt="">
            </div>
            	</div>
            	<div class="description">Коктейльное платье-кейп 
@@ -81,9 +88,9 @@
            	<button class="dress_button">В корзину<img src="photo/korzinabutton.png" alt=""></button> 
            </div>
 
-          <div class="dress">
+          <div class="dress item">
           	
-           	<div class="dress_foto"><img class="dress_two" src="photo/dress two.png" alt=""></div>
+           	<div class="dress_foto"><img class="dress_two" src="photo/dresstwo.png" alt=""></div>
            
            	
            	<div class="description">Платье из органзы  
@@ -94,9 +101,9 @@
            	<button class="dress_button">В корзину<img src="photo/korzinabutton.png" alt=""></button> 
            </div>
 
-           <div class="dress">
+           <div class="dress item active">
            	<div class="dress_foto">
-           	<img class="dress_tree" src="photo/dress three.png" alt="">
+           	<img class="dress_tree" src="photo/dressthree.png" alt="">
 			</div> 
            	<div class="description">Стильное черное платье
              <p>«Ashley»</p></div>
@@ -105,17 +112,41 @@
            	<button class="dress_button">В корзину<img src="photo/korzinabutton.png" alt=""></button>
 
            </div>
+           <div class="dress item">
+           	<div class="dress_foto">
+           	<img class="dress_tree" src="photo/dressthree.png" alt="">
+			</div> 
+           	<div class="description">Стильное черное платье
+             <p>«Ashley»</p></div>
+           	<div class="price">800 грн <span class="price_small">отп</span></div>
+           	<div class="old_price">1600 грн</div>
+           	<button class="dress_button">В корзину<img src="photo/korzinabutton.png" alt=""></button>
 
-           </div>
+           </div> 
+
+           <div class="dress item">
+           	<div class="dress_foto">
+           	<img class="dress_tree" src="photo/dressthree.png" alt="">
+			</div> 
+           	<div class="description">Стильное черное платье
+             <p>«Ashley»</p></div>
+           	<div class="price">800 грн <span class="price_small">отп</span></div>
+           	<div class="old_price">1600 грн</div>
+           	<button class="dress_button">В корзину<img src="photo/korzinabutton.png" alt=""></button>
+
+           </div> 
+        </div>
+           <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left">prev</i></a>
+  			<a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right">next</i></a>
+       </div>
+	
              
 		
 
            <div class="go_directory"><p>Перейти к каталогу > </p></div>
 
            	<div class="grid">
-           		<img class="grid_top_foto" src="photo/corner top.png" alt="">
-           		<img class="grid_bottom_foto" src="photo/corner bottom.png" alt="">
-           		<img class="grid_midle_foto" src="photo/corner midle.png" alt="">
+           		<img src="photo/grid.png" alt="">
            	</div>
            </div>
 			
@@ -130,24 +161,24 @@
 		<div class="footer_logo"> <img src="photo/logobattom.png" alt=""></div>
 		<div class="footer_info">
 			<ul class="info_text">
-				<li class="text_info"><a href="#"></a>О компании</li>
-				<li class="text_info"><a href="#"></a>Покупателям</li>
-				<li class="text_info"><a href="#"></a>Оплата и доставка</li>
-				<li class="text_info"><a href="#"></a>Условия опта</li>
-				<li class="text_info"><a href="#"></a>Дропшиппинг</li>
-				<li class="text_info"><a href="#"></a>Контакты</li>
+				<li class="text_info"><a href="#">О компании</a></li>
+				<li class="text_info"><a href="#">Покупателям</a></li>
+				<li class="text_info"><a href="#">Оплата и доставка</a></li>
+				<li class="text_info"><a href="#">Условия опта</a></li>
+				<li class="text_info"><a href="#">Дропшиппинг</a></li>
+				<li class="text_info"><a href="#">Контакты</a></li>
 			</ul>
 			<div class="info_text_bottom">
 			<ul class="phone_number">
 				<li class="number">+38 099 232-03-08</li>
 				<li class="number">+38 097 232-88-07</li>
 			</ul>
-			<button class="bottom_button"><a href="#"></a><p>Задать вопрос</p></button>
-			<div class="footer_icons">
-				<img src="photo/facebook.png" alt="" class="icons_facebook"><a href="#"></a>
+			<button class="bottom_button"><a href="#"><p>Задать вопрос</p></a></button>
+			<div class="footer_icons"><a href="#">
+				<img src="photo/facebook.png" alt="" class="icons_facebook"></a>
 			</div>
-			<div class="footer_icons_two">
-				<img src="photo/instagramm.png" alt="" class="icons_instagram"><a href="#"></a>
+			<div class="footer_icons_two"><a href="#">
+				<img src="photo/instagramm.png" alt="" class="icons_instagram"></a>
 
 			</div>
 			</div>

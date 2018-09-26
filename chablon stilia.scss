@@ -13,6 +13,12 @@ p {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+	
+}
+
+
 /*----для прибиваня футера*/
 .wrapper:after {
 	content: "";
@@ -59,6 +65,10 @@ ul li {
 .header_product{
 	display: inline-block;
 	margin-right: 1.8em;
+}
+.many_icons {
+	display: inline-block;
+	float: right;
 }
 
 .many_language {
@@ -303,10 +313,12 @@ border: none;
 }
 
 .grid {
-    position: absolute;
+     position: absolute;
     top: 70em;
-    left: 0;
- 
+    left: -10em;
+    z-index: -20;
+
+    margin-top: -40em;
    
 }
 
@@ -333,10 +345,7 @@ border: none;
 	margin-bottom: 6em;
 }
 
-.many_icons {
-	display: inline-block;
-	float: right;
-}
+
 /*---------Начало футера----------*/
 .footer {
 	height: 13.3em;
@@ -372,6 +381,10 @@ border: none;
 .text_info {
 	display: inline-block;
 	padding-right: 1.75em;
+
+	a {
+		color: #808080;
+	}
 }
 
 .info_text {
@@ -404,7 +417,15 @@ font-size: 1em;
 font-weight: bold;
 margin-left: 3.3em;
 border: none;
-margin-right: 1em;
+margin-right: 1em; 
+
+	a {
+		color: black;
+		:hover {
+			background: black;
+			display: block;
+		}
+	}
 }
 
 .footer_icons {
