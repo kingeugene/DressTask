@@ -1,14 +1,32 @@
 /* header */
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .header {
     background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
+   
+    position: sticky;
     width: 100%;
     z-index: 3;
 }
+.container {
+  width: 75%;
+  /*---ширина сайта*/
+  margin: auto; }
 
-.header ul {
+.header .menu {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -16,22 +34,26 @@
     background-color: #fff;
 }
 
-.header li a {
+.header .header_product {
     display: block;
-    padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+        padding: 1.7em 1em;
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
+    
     text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-    background-color: #f4f4f4;
+.header .header_product img {
+    padding-left: 0.6em;
 }
+
+
 
 .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
+    max-width: 12%;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -42,6 +64,7 @@
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
+    display: inline-block;
 }
 
 /* menu icon */
@@ -52,8 +75,7 @@
     float: right;
     padding: 28px 20px;
     position: relative;
-    user-select: none;
-}
+    }
 
 .header .menu-icon .navicon {
     background: #333;
@@ -116,18 +138,18 @@
     .header li {
         float: left;
     }
-    .header li a {
-        padding: 20px 30px;
+    .header .header_product {
+    padding: 1.7em 1em;
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
     }
     .header .menu {
         clear: none;
-        float: right;
+      
         max-height: none;
     }
-    .header .menu-icon {
-        display: none;
     }
-}
 
 
 /* section */
@@ -173,4 +195,61 @@
     .section-split a {
         width: 50%;
     }
+}
+
+.many_icons {
+    display: inline-block;
+    float: right;
+}
+
+.many_language {
+    display: inline-block;
+    font-weight: bold;
+    
+    font-size: 80%;
+    padding-top: 1.7em;
+
+}
+.many {
+    display: inline-block;
+    margin-right: 1.43em;
+
+}
+.many img {
+    padding-left: 0.6em;
+}
+
+.custom_icons {
+display: inline-block;
+    font-weight: bold;
+   
+    font-size: 80%;
+    margin-top: 0.5em;
+    float: right;
+    padding-top: 1.1em;
+}
+
+.korzina {
+    position: relative;
+    width: 80%;
+
+}
+.korzinabig {
+    position: relative;
+}
+.diacount_korzina {
+    position: absolute;
+    
+        bottom: -30%;
+    left: -50%;
+    width: 80%;
+    
+}
+.icons {
+    display: inline-block;
+    margin-left: 1.5em;
+
+}
+.custom_icons_menu {
+    width: 80%;
 }
