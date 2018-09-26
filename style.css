@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+  .container {
+    width: 95%; }
+  * {
+    font-size: 12px; }
+  .product {
+    display: none; }
+  .custom_icons {
+    float: right; }
+  .caption {
+    font-size: 1em; }
+  .description {
+    font-size: 1.2em; }
+  .price {
+    font-size: 2em; }
+    .price .price_small {
+      font-size: 0.5em; }
+  .old_price {
+    font-size: 1.5em; }
+    .old_price .old_price_small {
+      font-size: 0.5em; } }
+
+@media (max-width: 780px) {
+  * {
+    font-size: 10px; } }
+
+@media (max-width: 672px) {
+  * {
+    font-size: 7px; } }

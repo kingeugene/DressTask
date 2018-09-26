@@ -17,7 +17,7 @@ p {
 .wrapper:after {
 	content: "";
 	display: block;
-	height: 245px;/*-----высота футера-----*/
+	height: 13.3em;/*-----высота футера-----*/
 }
 
 .container  {
@@ -42,7 +42,7 @@ ul li {
 }
 
 .header_cover {
-	padding: 25px 0px;
+	padding: 1.56em 0px;
 	vertical-align: middle;
 }
 
@@ -63,24 +63,25 @@ ul li {
 
 .many_language {
 	display: inline-block;
-	font-weight: bold;
-	margin-left: 4%;
-	font-size: 80%;
+    font-weight: bold;
+    
+    font-size: 80%;
+    margin-top: 1em;
 
 }
 .many {
 	display: inline-block;
-	margin-right: 23px;
+	margin-right: 1.43em;
 
 }
 
 .custom_icons {
-	display: inline-block;
-	font-weight: bold;
-	margin-left: 1em;
-	font-size: 80%;
-	margin-top: 0.5em;
-
+display: inline-block;
+    font-weight: bold;
+   
+    font-size: 80%;
+    margin-top: 0.5em;
+    float: right;
 }
 
 .korzina {
@@ -121,7 +122,7 @@ ul li {
 	display: grid;
 
 	img {
-		margin-top: -70px;
+		margin-top: -4.37em;
 		width: 100%;
 		z-index:-1;
 		
@@ -155,14 +156,15 @@ margin-left: 0.3em;
 }
 
 .button_purchase {
-padding: 24px 38px;
+padding: 1.5em 2.37em;
 background: #ebad38;
-border-radius: 30px;
+border-radius: 1.87em;
 font-size: 1em;
 font-weight: bold;
 margin-left: 0.8em;
 border: none;
 margin-top: 2.5em;
+width: 95%;
 
 }
 
@@ -174,7 +176,7 @@ margin-top: 2.5em;
 }
 .main_text {
     
-    height: 28em;
+    overflow: auto;
     margin-top: 4em;
 
 
@@ -192,11 +194,12 @@ margin-top: 2.5em;
 }
 .main_small_text {
 	
-	margin-top: 3em;
-	width: 40% ;
-	float: right;
-	display: inline-block;
-	margin-right: 5%;
+	
+	width: 50% ;
+	font-size: 0.35em;
+	font-weight: normal;
+	text-align: justify;
+	margin: auto;
 
 		p {
 			margin: 0;
@@ -206,8 +209,12 @@ margin-top: 2.5em;
   			margin-top: 1em;
   		}
 }
+
+.caption {
+	margin-bottom: 1em;
+}
 .slaider {
-	margin-top: 260px;
+	margin-top: 11em;
 }
 
 .dress {
@@ -215,6 +222,15 @@ margin-top: 2.5em;
 	text-align: center;
 	width: 33%;
 
+}
+.dress_one {
+	width: 70%;
+}
+.dress_two {
+	width: 80%;
+}
+.dress_tree {
+	width: 64%;
 }
 
 
@@ -224,57 +240,58 @@ margin-top: 2.5em;
 
 	.plat_discount {
 		position: absolute;
-		left: 0;
-        bottom: 350px;
+		 left: 1em;
+         bottom: 18em;
+
 	}
 }
 .description {
-	font-size: 23px;
+	font-size: 1.43em;
 	font-weight: bold;
-	padding-top: 45px;
+	padding-top: 2em;
 }
 
 .price {
 	font-weight: bold;
-	font-size: 40px;
-	padding-top: 15px;
+	font-size: 2.5em;
+	padding-top: 0.38em;
 }
 
 .price_small{
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: normal;
 }
 
 .old_price {
-	font-size: 30px;
+	font-size: 1.87em;
 	position: relative;
 
 	img {
 		position: absolute;
-		top: 8px;
+		top: 0.26em;
 	}
 
 }
 
 .old_price_small {
 	font-weight: normal;
-	font-size: 16px;
-	margin-left: 25px;
+	font-size: 1em;
+	margin-left: 0.8em;
 
 }
 
 .dress_button {
-padding: 16px 48px;
+padding: 1em 3em;
 background: #ebad38;
-border-radius: 30px;
-font-size: 15px;
+border-radius: 1.9em;
+font-size: 1em;
 font-weight: bold;
-margin-top: 30px;
+margin-top: 1.9em;
 border: none;
 	
 	img {
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 0.62em;
 	}
 
 	&:hover {
@@ -284,26 +301,44 @@ border: none;
 
 .grid {
     position: absolute;
-    top: 25.8%;
-    left: 0%;
-    z-index: -88;
-
-    .grid_foto {
-    	width: 70%;
-    }
+    top: 70em;
+    left: 0;
+ 
+   
 }
+
+   .grid_top_foto{
+		position: absolute;
+		    z-index: -44;
+    }
+   .grid_bottom_foto{
+		position: absolute;
+		    position: absolute;
+    left: 60em;
+    top: 41em;
+    z-index: -44;
+    }
+    .grid_midle_foto{
+		position: absolute;
+		    z-index: -55;
+    bottom: -81em;
+    }
 
 .go_directory {
 	text-align: center;
 	margin-top: 5em;
-	margin-bottom: 10em;
+	margin-bottom: 6em;
 }
 
+.many_icons {
+	display: inline-block;
+	float: right;
+}
 /*---------Начало футера----------*/
 .footer {
-	height: 245px;
+	height: 13.3em;
 	background: #1e1e1e;
-	margin-top: -245px;
+	margin-top: -13.3em;
 	position: relative;
 	
 }
@@ -313,7 +348,7 @@ border: none;
 .footer_object {
 	
 	
-	padding-top: 30px;
+	padding-top: 1.9em;
 }
 .footer_logo {
 	display: inline-block;
@@ -326,17 +361,17 @@ border: none;
 }
 .text_info {
 	display: inline-block;
-	padding-right: 28px;
+	padding-right: 1.75em;
 }
 
 .info_text {
 	vertical-align: top;
 	color: #a9a9a9;
-	font-size: 80%;
+	font-size: 90%;
 }
 
 .info_text_bottom {
-	margin-top: 32px;
+	margin-top: 2em;
 	
 }
 
@@ -352,14 +387,14 @@ border: none;
 .bottom_button {
 	display: inline-block;
 	
-padding: 16px 38px;
+padding: 1em 3em;
 background: #ebad38;
-border-radius: 30px;
-font-size: 15px;
+border-radius: 1.9em;
+font-size: 1em;
 font-weight: bold;
-margin-left: 53px;
+margin-left: 3.3em;
 border: none;
-margin-right: 56px;
+margin-right: 1em;
 }
 
 .footer_icons {
@@ -372,13 +407,13 @@ margin-right: 56px;
 }
 
 .footer_bottom {
-	margin-top: 36px;
-	border-top: 1px solid #353535;
+	margin-top: 1.37em;
+	border-top: 0.1em solid #353535;
 }
 
 .foot_bot_text_one {
 	display: inline-block;
-	padding: 30px 0px;
+	padding: 1.9em 0px;
 	font-size: 80%;
 	color: #a9a9a9;
 
@@ -392,8 +427,9 @@ margin-right: 56px;
 
 .site_creation {
 display: inline-block;
-	margin-left: 58%;
+float: right;
 	font-size: 80%;
+	margin-top: 2.2%;
 
 	img{
 		width: 40%;
@@ -401,7 +437,7 @@ display: inline-block;
 
 }
 .webakula{
-	margin-left: 10px;
+	margin-left: 0.62em;
 	vertical-align: middle;
 }
 /*----------Конец футера----------*/
