@@ -26,4 +26,21 @@
 
 @media (max-width: 672px) {
   * {
-    font-size: 7px; } }
+    font-size: 8px; }
+  .footer_icons {
+    display: inline-block;
+    width: 3%;
+    vertical-align: middle;
+    margin-left: 2em;
+    margin-right: 1em; }
+    .footer_icons .icons_facebook {
+      max-width: 100%;
+      height: auto; } }
+
+@media (max-width: 560px) {
+  * {
+    font-size: 6px; } }
+
+@media (max-width: 375px) {
+  * {
+    font-size: 5px; } }

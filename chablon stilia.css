@@ -188,7 +188,8 @@ ul li {
   .dress_plat .plat_discount {
     position: absolute;
     left: 1em;
-    bottom: 18em; }
+    bottom: 18em;
+    max-width: 20%; }
 
 .description {
   font-size: 1.43em;
@@ -209,7 +210,8 @@ ul li {
   position: relative; }
   .old_price img {
     position: absolute;
-    top: 0.26em; }
+    top: 0.26em;
+    max-width: 40%; }
 
 .old_price_small {
   font-weight: normal;
@@ -226,7 +228,8 @@ ul li {
   border: none; }
   .dress_button img {
     vertical-align: middle;
-    margin-left: 0.62em; }
+    margin-left: 0.62em;
+    max-width: 20%; }
   .dress_button:hover {
     color: black; }
 
@@ -271,7 +274,11 @@ ul li {
   padding-top: 1.9em; }
 
 .footer_logo {
-  display: inline-block; }
+  display: inline-block;
+  width: 10%; }
+  .footer_logo img {
+    max-width: 100%;
+    height: auto; }
 
 .footer_info {
   display: inline-block;
@@ -310,9 +317,20 @@ ul li {
 
 .footer_icons {
   display: inline-block;
+  width: 5%;
+  vertical-align: middle;
+  margin-left: 2em; }
+  .footer_icons .icons_facebook {
+    max-width: 100%;
+    height: auto; }
+
+.footer_icons_two {
+  display: inline-block;
+  width: 5%;
   vertical-align: middle; }
-  .footer_icons .icons {
-    margin-right: 22px; }
+  .footer_icons_two .icons_instagram {
+    max-width: 100%;
+    height: auto; }
 
 .footer_bottom {
   margin-top: 1.37em;
@@ -326,7 +344,11 @@ ul li {
 
 .foot_bot_text_two {
   display: inline-block;
-  color: #8f8f8f; }
+  color: #8f8f8f;
+  width: 50%; }
+  .foot_bot_text_two img {
+    max-width: 100%;
+    height: auto; }
 
 .site_creation {
   display: inline-block;
@@ -337,7 +359,6 @@ ul li {
     width: 40%; }
 
 .webakula {
-  margin-left: 0.62em;
   vertical-align: middle; }
 
 /*----------Конец футера----------*/
