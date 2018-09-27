@@ -5,8 +5,8 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viemport" content="width=device-width">
 	<link rel="stylesheet"  href="normalize.css">
-	<link rel="stylesheet" type="text/css" href="chablon stilia.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styledesctop.css">
+	<link rel="stylesheet" type="text/css" href="stylemobil.css">
 	<link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,57 +14,58 @@
 	<script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="burger.css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css" />
+   
 	<title>Текстовое поле </title>
 </head>
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="container">
-			
-			
-		
-				<div class="header_cover">
-				  <div class="heder_logo"><img src="photo/Lo.png">
-				  </div>
-				  <ul class="product">
-				  		<li class="header_product dropdown"><a href="#"></a>Одежда на каждый день<img src="photo/arrow to down.png" alt="">
-							<div class="dropdown-content">
+    <div class="containers">
+    <a href="/" class="logo"> <div class="heder_logo"><img src="photo/Lo.png">
+                  </div></a>
+   
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul  style="display:none">
+        
+        <li class="header_product"><a href="#work">Одежда на каждый день<img src="photo/arrow to down.png" alt=""></a></li>
+        <li class="header_product"><a href="#about">Спортивная одежда<img src="photo/arrow to down.png" alt=""></a></li>
+        <li class="header_product"><a href="#careers">Верхняя одежда<img src="photo/arrow to down.png" alt=""></a></li>
+        <li class="header_product"><a href="#contact">Скидки</a></li>
+        
+    </ul>
+    <div class="many_icons" >
+                    <ul class="many_language">
+                        <li class="many"><a href="#">UAH<img src="photo/arrow to down.png" alt=""></a></li>
+                        <li class="many"><a href="#">RU<img src="photo/arrow to down.png" alt=""></a></li>
+                    </ul>
+
+                    <ul class="custom_icons">
+                        <li class="icons"><a href="#"><img class="custom_icons_menu" src="photo/search.png" alt=""></a></li>
+                        <li class="icons"><a href="#"><img class="custom_icons_menu" src="photo/man.png" alt=""></a></li>
+                        <li class="many_two"><a href="#">UAH<img src="photo/arrow to down.png" alt=""></a></li>
+                        <li class="icons"><a href="#"><div class="korzinabig"><img class="korzina" src="photo/korzinask.png" alt=""><img src="photo/discount.png" class="diacount_korzina" alt=""></div></a></li>
+                       
+                    </ul>
+    </div>
+
+    <ul class="menu">
+        <li class="header_product dropdown"><a href="#work">Одежда на каждый день<img src="photo/arrow to down.png" alt=""><div class="dropdown-content">
 								<p><a href="#">Для женщин</a></p>
 								<p><a href="#">Для мужчин</a></p>
 								<p><a href="#">Для детей</a></p>
-							</div>
-						</li>
-				  		<li class="header_product dropdown"><a href="#"></a>Спортивная одежда<img src="photo/arrow to down.png" alt="">
-							<div class="dropdown-content">
-							<p><a href="#">Для женщин</a></p>
-							<p><a href="#">Для мужчин</a></p>
-							<p><a href="#">Для детей</a></p>
-						</div>
-						</li>
-				  		<li class="header_product"><a href="#"></a>Верхняя одежда<img src="photo/arrow to down.png" alt="">
-							<div class="dropdown-content">
-							<p><a href="#">Для женщин</a></p>
-							<p><a href="#">Для мужчин</a></p>
-							<p><a href="#">Для детей</a></p>
-						</div></li>
-				  		<li class="header_product"><a href="#"></a>Скидки</li>
-				  	</ul>
-				  	<div class="many_icons">
-				  	<ul class="many_language">
-				  		<li class="many"><a href="#"></a>UAH<img src="photo/arrow to down.png" alt=""></li>
-				  		<li class="many"><a href="#"></a>RU<img src="photo/arrow to down.png" alt=""></li>
-				  	</ul>
+							</div></a></li>
+        <li class="header_product"><a href="#about">Спортивная одежда<img src="photo/arrow to down.png" alt=""></a></li>
+        <li class="header_product"><a href="#careers">Верхняя одежда<img src="photo/arrow to down.png" alt=""></a></li>
+        <li class="header_product"><a href="#contact">Скидки</a></li>
+        
+    </ul>
+    </div>
+</header>
+<main class="main">
 
-				  	<ul class="custom_icons">
-				  	    <li class="icons"><a href="#"></a><img class="custom_icons_menu" src="photo/search.png" alt=""></li>
-				  		<li class="icons"><a href="#"></a><img class="custom_icons_menu" src="photo/man.png" alt=""></li>
-				  		<li class="icons"><a href="#"><div class="korzinabig"></a><img class="korzina" src="photo/korzinask.png" alt=""><img src="photo/discount.png" class="diacount_korzina" alt=""></div></li>
-				  		<li class="icons_end"><a  href="#"><img class="custom_icons_menu" src="photo/menu.png" alt=""></a></li>
-				  	</ul>
-				</div>
-				</div>
-				</div>
-			</header>
 		
 		<div class="background_image"><img src="photo/backgrond_big.png" alt="">
 			<div class="background_text">

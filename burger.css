@@ -14,6 +14,9 @@ a {
     color: black;
 }
 
+.header_foter {
+    display: none;
+}
 .header {
     background-color: #fff;
    
@@ -21,8 +24,8 @@ a {
     width: 100%;
     z-index: 3;
 }
-.container {
-  width: 75%;
+.containers {
+  width: 75% !important;
   /*---ширина сайта*/
   margin: auto; }
 
@@ -34,8 +37,12 @@ a {
     background-color: #fff;
 }
 
+.menu_icons {
+    display: none;
+}
+
 .header .header_product {
-    display: block;
+    display: inline-block;
         padding: 1.7em 1em;
     font-size: 0.8em;
     color: black;
@@ -53,19 +60,21 @@ a {
 .header .logo {
     display: block;
     float: left;
-    max-width: 12%;
     padding: 10px 20px;
     text-decoration: none;
 }
 
+
 /* menu */
 
 .header .menu {
-    clear: both;
-    max-height: 0;
+    clear: none;
+    max-height: none;
     transition: max-height .2s ease-out;
     display: inline-block;
 }
+
+
 
 /* menu icon */
 
@@ -73,7 +82,7 @@ a {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 28px 0 0 20px;
     position: relative;
     }
 
@@ -132,24 +141,7 @@ a {
     top: 0;
 }
 
-/* 48em = 768px */
 
-@media (min-width: 958px) {
-    .header li {
-        float: left;
-    }
-    .header .header_product {
-    padding: 1.7em 1em;
-    font-size: 0.8em;
-    color: black;
-    font-weight: bold;
-    }
-    .header .menu {
-        clear: none;
-      
-        max-height: none;
-    }
-    }
 
 
 /* section */
@@ -216,6 +208,14 @@ a {
 .many img {
     padding-left: 0.6em;
 }
+.many_two {
+    display: none;
+    margin-right: 1.43em;
+     font-weight: bold;
+    
+    font-size: 80%;
+    padding-top: 1.7em;
+}
 
 .custom_icons {
 display: inline-block;
@@ -250,4 +250,160 @@ display: inline-block;
 }
 .custom_icons_menu {
     width: 80%;
+}
+
+/* 48em = 768px */
+@media (max-width: 1200px) {
+    .containers {
+        width:95% !important;
+        margin:auto !important;
+
+    }
+    .header .menu {
+        padding-top: 0.5em;
+    }
+     .many_icons {
+        padding-top: 0.5em;
+    }
+    .header .menu-icon {
+         padding: 35px 0 0 20px;
+
+}
+}
+@media (max-width: 1130px) {
+    .container {
+        width:95%
+    }
+    .containers {
+        width:95% !important;
+        margin:auto;
+
+    }
+
+    .header .menu {
+        padding-top: 1em;
+    }
+    .many_icons {
+        padding-top: 1em;
+    }
+
+    * {
+        font-size: 11.6px;
+
+    }
+}
+
+@media (max-width: 992px) {
+  
+    .header .header_product {
+    padding: 1.7em 1em;
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
+    }
+    .header .menu {
+        clear: both;
+      
+        max-height: 0;
+    }
+    .many_language {
+        font-size: 100%;
+
+
+    }
+    .header .menu {
+    .menu {
+        display: block !important;
+        overflow: none !important;
+    }
+
+    .header_product {
+        display: block !important;
+        text-align: center;
+         background: yellow !important;
+    }
+    .header_product a {
+        font-size: 2em;
+    }
+
+ 
+
+    .header_foter {
+        display: block;
+        text-align: center;
+        background: yellow;
+        font-size: 2em;
+    }
+
+
+
+   
+ 
+
+}
+ 
+@media (max-width: 780px) {
+    .many_icons {
+        padding-top: 0.5em;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 99%;
+    }
+    .many_icons {
+        padding-top: 0.5em;
+    }
+    .header .logo {
+        padding: 10px 2px;
+}
+
+    .header .menu-icon {
+    float: left; 
+
+}
+.many_two {
+    display: inline-block;
+        margin: 0 1em;
+   
+
+}
+
+.many_two a {
+    font-size: 2.9em;
+}
+
+    .many {
+        display: none;
+    }
+
+    
+
+   .custom_icons {
+    padding-top: 0;
+   }
+
+
+
+
+}
+
+@media (max-width: 380px) {
+
+    .logo {
+        width: 10%;
+        padding-top: 1.7em !important;
+    margin-right: 2em ;
+    }
+
+
+    .logo img {
+        width: 200%;
+    }
+
+
 }

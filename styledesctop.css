@@ -36,77 +36,11 @@ ul li {
   list-style: none; }
 
 /*----------Start Header-----------*/
-.header {
-  position: -webkit-sticky;
-  position: sticky; }
-
-.header_cover {
-  padding: 1.56em 0px;
-  vertical-align: middle; }
-
-.heder_logo {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 3.4%; }
-
-.product {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 80%; }
-
-.header_product {
-  display: inline-block;
-  margin-right: 1.8em; }
-
-.many_icons {
-  display: inline-block;
-  float: right; }
-
-.many_language {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 80%;
-  margin-top: 1em; }
-
-.many {
-  display: inline-block;
-  margin-right: 1.43em; }
-
-.custom_icons {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 80%;
-  margin-top: 0.5em;
-  float: right; }
-
-.korzina {
-  position: relative;
-  width: 80%; }
-
-.korzinabig {
-  position: relative; }
-
-.diacount_korzina {
-  position: absolute;
-  bottom: -30%;
-  left: -50%;
-  width: 80%; }
-
-.icons {
-  display: inline-block;
-  margin-left: 1.5em; }
-
-.icons_end {
-  display: inline-block;
-  margin-left: 1.5em; }
-
-.custom_icons_menu {
-  width: 80%; }
-
 .background_image {
   overflow: hidden;
   position: relative;
-  display: grid; }
+  display: grid;
+  width: 100%; }
   .background_image img {
     margin-top: -4.37em;
     width: 100%;
@@ -116,7 +50,8 @@ ul li {
   position: absolute;
   z-index: 3;
   top: 20%;
-  left: 55%; }
+  left: 55%;
+   }
 
 .text_discount {
   font-size: 2em;
@@ -182,13 +117,19 @@ ul li {
   width: 33%; }
 
 .dress_one {
-  width: 70%; }
+  width: 70%;
+  margin: auto; }
 
 .dress_two {
-  width: 80%; }
+  width: 80%;
+  margin: auto; }
 
 .dress_tree {
-  width: 64%; }
+  width: 64%;
+  margin: auto; }
+
+.slick-slide img {
+  display: inline-block !important; }
 
 .dress_plat {
   position: relative; }
@@ -268,37 +209,8 @@ ul li {
   margin-top: 5em;
   margin-bottom: 6em; }
 
-/** slider */
-
-.carousel-control        { width:  4%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
-@media (max-width: 767px) {
-  .carousel-inner .active.left { left: -100%; }
-  .carousel-inner .next        { left:  100%; }
-  .carousel-inner .prev    { left: -100%; }
-  .active > div { display:none; }
-  .active > div:first-child { display:block; }
-
-}
-@media (min-width: 767px) and (max-width: 992px ) {
-  .carousel-inner .active.left { left: -50%; }
-  .carousel-inner .next        { left:  50%; }
-  .carousel-inner .prev    { left: -50%; }
-  .active > div { display:none; }
-  .active > div:first-child { display:block; }
-  .active > div:first-child + div { display:block; }
-}
-@media (min-width: 992px ) {
-  .carousel-inner .active.left { left: -25%; }
-  .carousel-inner .next        { left:  25%; }
-  .carousel-inner .prev    { left: -25%; }  
-}
-
-
-
 /*---------Начало футера----------*/
 .footer {
-  height: 13.3em;
   background: #1e1e1e;
   margin-top: -13.3em;
   position: relative; }
@@ -349,6 +261,8 @@ ul li {
   margin-left: 3.3em;
   border: none;
   margin-right: 1em; }
+  .bottom_button p {
+    margin: 0; }
   .bottom_button a {
     color: black; }
     .bottom_button a :hover {
@@ -402,3 +316,13 @@ ul li {
   vertical-align: middle; }
 
 /*----------Конец футера----------*/
+.slick-prev:before, .slick-next:before {
+  font-size: 3rem !important;
+  color: yellow !important; }
+
+.slick-prev {
+  left: -3rem !important;
+  top: 30% !important; }
+
+.slick-next {
+  top: 30% !important; }
