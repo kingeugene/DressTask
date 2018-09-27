@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viemport" content="width=device-width">
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet"  href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="styledesctop.css">
 	<link rel="stylesheet" type="text/css" href="stylemobil.css">
@@ -28,13 +28,25 @@
    
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul  style="display:none">
-        
-        <li class="header_product"><a href="#work">Одежда на каждый день<img src="photo/arrow to down.png" alt=""></a></li>
-        <li class="header_product"><a href="#about">Спортивная одежда<img src="photo/arrow to down.png" alt=""></a></li>
-        <li class="header_product"><a href="#careers">Верхняя одежда<img src="photo/arrow to down.png" alt=""></a></li>
-        <li class="header_product"><a href="#contact">Скидки</a></li>
-        
+    <ul class="sections">
+		<li class="header_product dropdown"><a href="#">Одежда на каждый день<img src="photo/arrow to down.png" alt=""></a>
+			<div class="dropdown-content">
+				<p><a href="#">Для женщин</a></p>
+				<p><a href="#">Для мужчин</a></p>
+				<p><a href="#">Для детей</a></p>
+			</div>
+		</li>
+		<li class="header_product dropdown"><a href="#">Спортивная одежда<img src="photo/arrow to down.png" alt=""></a><div class="dropdown-content">
+			<p><a href="#">Для женщин</a></p>
+			<p><a href="#">Для мужчин</a></p>
+			<p><a href="#">Для детей</a></p>
+		</div></li>
+		<li class="header_product dropdown"><a href="#">Верхняя одежда<img src="photo/arrow to down.png" alt=""></a><div class="dropdown-content">
+			<p><a href="#">Для женщин</a></p>
+			<p><a href="#">Для мужчин</a></p>
+			<p><a href="#">Для детей</a></p>
+		</div></li>
+		<li class="header_product"><a href="#contact">Скидки</a></li>
     </ul>
     <div class="many_icons" >
                     <ul class="many_language">
@@ -52,21 +64,14 @@
     </div>
 
     <ul class="menu">
-        <li class="header_product dropdown"><a href="#work">Одежда на каждый день<img src="photo/arrow to down.png" alt=""><div class="dropdown-content">
-								<p><a href="#">Для женщин</a></p>
-								<p><a href="#">Для мужчин</a></p>
-								<p><a href="#">Для детей</a></p>
-							</div></a></li>
-        <li class="header_product"><a href="#about">Спортивная одежда<img src="photo/arrow to down.png" alt=""></a></li>
-        <li class="header_product"><a href="#careers">Верхняя одежда<img src="photo/arrow to down.png" alt=""></a></li>
-        <li class="header_product"><a href="#contact">Скидки</a></li>
-        
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Контакты</a></li>
     </ul>
     </div>
 </header>
 <main class="main">
-
-		
 		<div class="background_image"><img src="photo/backgrond_big.png" alt="">
 			<div class="background_text">
 				<p class="text_sale">SALE</p>

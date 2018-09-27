@@ -251,6 +251,11 @@ ul li {
 .number {
   color: #fff; }
 
+.menu{
+  display: none;
+  background-color: #ebad38;
+}
+
 .bottom_button {
   display: inline-block;
   padding: 1em 3em;
