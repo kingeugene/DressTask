@@ -22,7 +22,8 @@
 
 @media (max-width: 780px) {
   * {
-    font-size: 10px; } }
+    font-size: 10px;}
+   }
 
 @media (max-width: 672px) {
   * {
@@ -78,3 +79,60 @@
 @media (max-width: 375px) {
   * {
     font-size: 5px; } }
+
+@media (max-width: 1200px) {
+
+  .main_text {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .main_text {
+    font-size: 0.5em;
+  }
+
+.main_small_text p {
+  font-size: 1.6em;
+}
+}
+@media (max-width: 650px) {
+  .main_small_text p {
+  font-size: 1.2em;
+}
+}
+
+@media (max-width: 480px) {
+
+  .caption {
+    font-size: 0.6em;
+  }
+
+  .main_small_text p {
+  font-size: 1em;
+}
+.dress_button {
+  font-size: 5px;
+}
+}
+
+@media (max-width: 350px) {
+
+  .caption {
+    font-size: 0.4em;
+  }
+
+  .main_small_text p {
+  font-size: 0.8em;
+}
+.dress_button {
+  font-size: 5px;
+}
+}
+
+@media (max-width: 1000px) {
+  .footer_info {
+    font-size: 2px;
+  }
+}
