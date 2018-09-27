@@ -56,13 +56,16 @@
   background-color: #ebad38;
 }
 .menu li{
-  padding: 20% 0 20% 0;
+  background-color: #ebad38;
+  padding: 1em 0 1em 0;
   text-align: center;
 }
 .menu li a{
   text-decoration: none;
 }
-
+.menu li:hover a{
+  color: white;
+}
 .menu li:hover{
   background-color: black;
   color: white;

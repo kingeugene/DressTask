@@ -333,6 +333,14 @@ display: inline-block;
 
 }
 
+#menu{
+    display: none;
+}
+
+.sections{
+    font-size: 0.9em;
+}
+
 @media (max-width: 380px) {
 
     .logo {

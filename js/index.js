@@ -7,4 +7,7 @@ $(document).ready(function (){
   $('.dropdown').on('click', function () {
       $(this).find('.dropdown-content').toggleClass('active');
   });
+  $('.menu-icon').click(function () {
+      $('#menu').fadeToggle( 'slow' );
+  });
 });
